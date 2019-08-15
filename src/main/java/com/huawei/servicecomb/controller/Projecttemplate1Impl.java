@@ -22,7 +22,7 @@ public class Projecttemplate1Impl {
         method = RequestMethod.GET)
     public String helloworld( @RequestParam(value = "name", required = true) String name){
 
-        return userProjecttemplate1Delegate.helloworld(name);
+        return userProjecttemplate1Delegate.helloworld("projecttemplate1:"+name);
     }
 
 }
