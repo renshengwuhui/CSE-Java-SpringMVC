@@ -7,12 +7,12 @@ service_description:
 cse:
   service:
     registry:
-      address: {cse.service.registry.address}
+      address: https://cse.cn-south-1.myhuaweicloud.com
       instance:
         watch: false
   config:
     client:
-      serverUri: {cse.service.registry.address}
+      serverUri: https://cse.cn-south-1.myhuaweicloud.com
       refreshMode: 1
       refresh_interval: 5000
   #monitor:
